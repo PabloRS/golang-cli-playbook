@@ -1,10 +1,37 @@
-=== RUN   TestModule1CheckEnvGOOS
-    module1_test.go:17: 'go env' does not work as expected
---- FAIL: TestModule1CheckEnvGOOS (0.00s)
-=== RUN   TestModule1CheckEnvGOOSInJson
-    module1_test.go:27: it looks 'module1.json' is not correctly formatted as a JSON file
-    module1_test.go:32: your 'module1.json' does not include valid values that we check
---- FAIL: TestModule1CheckEnvGOOSInJson (0.00s)
-FAIL
-exit status 1
-FAIL	github.com/pluralsight-projects/golang-cli-playbook/module1	0.001s
+GO111MODULE=""
+GOARCH="amd64"
+GOBIN=""
+GOCACHE="/home/pablo/.cache/go-build"
+GOENV="/home/pablo/.config/go/env"
+GOEXE=""
+GOEXPERIMENT=""
+GOFLAGS=""
+GOHOSTARCH="amd64"
+GOHOSTOS="linux"
+GOINSECURE=""
+GOMODCACHE="/home/pablo/go/pkg/mod"
+GONOPROXY=""
+GONOSUMDB=""
+GOOS="linux"
+GOPATH="/home/pablo/go"
+GOPRIVATE=""
+GOPROXY="https://proxy.golang.org,direct"
+GOROOT="/usr/lib/go-1.17"
+GOSUMDB="sum.golang.org"
+GOTMPDIR=""
+GOTOOLDIR="/usr/lib/go-1.17/pkg/tool/linux_amd64"
+GOVCS=""
+GOVERSION="go1.17.6"
+GCCGO="gccgo"
+AR="ar"
+CC="gcc"
+CXX="g++"
+CGO_ENABLED="1"
+GOMOD="/home/pablo/go/src/golang-cli-playbook/go.mod"
+CGO_CFLAGS="-g -O2"
+CGO_CPPFLAGS=""
+CGO_CXXFLAGS="-g -O2"
+CGO_FFLAGS="-g -O2"
+CGO_LDFLAGS="-g -O2"
+PKG_CONFIG="pkg-config"
+GOGCCFLAGS="-fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build1307113223=/tmp/go-build -gno-record-gcc-switches"
